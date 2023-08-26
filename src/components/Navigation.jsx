@@ -5,7 +5,7 @@ const Navigation = () => {
 
   return (
     <>
-      <ul className="nav nav-underline justify-content-end">
+      <ul className="nav nav-pills justify-content-end">
         <li className="nav-item px-5">
           <Link
             to="/"

@@ -2,9 +2,12 @@ const Contact = () => {
   return (
     <>
       <div className="bg-myBlack h-100">
-        <form className="ps-5 pt-5">
-          <div className="col-md-4 pb-2">
-            <label htmlFor="validationDefault01" className="form-label text-myWhite" >
+      <div className="row px-5 pt-3 ps-4">
+          <h2 className="display-2 text-myWhite">Contact Me</h2>
+        </div>
+        <form className="ps-5 pt-3">
+          <div className="col-xl-5 pb-2">
+            <label htmlFor="validationDefault01" className="form-label text-myWhite">
               Name:
             </label>
             <input
@@ -14,7 +17,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="col-md-4 pb-2">
+          <div className="col-xl-5 pb-2">
             <label htmlFor="exampleInputEmail1" className="form-label text-myWhite">
               Email:
             </label>
@@ -25,7 +28,7 @@ const Contact = () => {
               aria-describedby="emailHelp"
             />
           </div>
-          <div className="col-md-4 pb-4">
+          <div className="col-xl-5 pb-4">
             <label htmlFor="exampleFormControlTextarea1" className="form-label text-myWhite">
               Message
             </label>
@@ -34,6 +37,7 @@ const Contact = () => {
               className="form-control"
               id="validationDefault01"
               rows="5"
+              required
             ></textarea>
           </div>
           <div className="col-12 pb-5">

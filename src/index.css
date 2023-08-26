@@ -4,6 +4,7 @@ html {
 
 #root {
     height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -13,3 +14,4 @@ body {
 img {
     border-radius: 100%;
 }
+
