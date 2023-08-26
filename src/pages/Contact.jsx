@@ -26,6 +26,7 @@ const Contact = () => {
               className="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
+              required
             />
           </div>
           <div className="col-xl-5 pb-4">
