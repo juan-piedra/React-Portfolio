@@ -43,11 +43,11 @@ const Project = () => {
               alt="JATE"
               className="col"
             />
-          </a>
-          <div id="projectMiddle">
+            <div id="projectMiddle">
             <div id="projectTitle">{Object.title}</div>
             <div id="projectStack">{Object.stack}</div>
           </div>
+          </a>
         </div>
       ))}
     </>

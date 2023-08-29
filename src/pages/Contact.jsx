@@ -2,12 +2,15 @@ const Contact = () => {
   return (
     <>
       <div className="bg-myBlack h-100">
-      <div className="row px-5 pt-3 ps-4">
+        <div className="row px-5 pt-3 ps-4">
           <h2 className="display-2 text-myWhite">Contact Me</h2>
         </div>
         <form className="ps-5 pt-3">
           <div className="col-xl-5 pb-2">
-            <label htmlFor="validationDefault01" className="form-label text-myWhite">
+            <label
+              htmlFor="validationDefault01"
+              className="form-label text-myWhite"
+            >
               Name:
             </label>
             <input
@@ -18,7 +21,10 @@ const Contact = () => {
             />
           </div>
           <div className="col-xl-5 pb-2">
-            <label htmlFor="exampleInputEmail1" className="form-label text-myWhite">
+            <label
+              htmlFor="exampleInputEmail1"
+              className="form-label text-myWhite"
+            >
               Email:
             </label>
             <input
@@ -30,11 +36,14 @@ const Contact = () => {
             />
           </div>
           <div className="col-xl-5 pb-4">
-            <label htmlFor="exampleFormControlTextarea1" className="form-label text-myWhite">
+            <label
+              htmlFor="exampleFormControlTextarea1"
+              className="form-label text-myWhite"
+            >
               Message
             </label>
             <textarea
-              type='text'
+              type="text"
               className="form-control"
               id="validationDefault01"
               rows="5"

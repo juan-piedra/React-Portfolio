@@ -26,7 +26,7 @@ img.px-5 {
   max-width: 450px;
   align-items: center;
   opacity: 1;
-  transition: 0.5s ease;
+  transition: 1s ease;
   backface-visibility: hidden;
 }
 
@@ -39,6 +39,10 @@ img.px-5 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#projectMiddle:hover {
+  opacity: 0.3;
 }
 
 #projectImg:hover {
