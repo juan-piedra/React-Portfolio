@@ -1,4 +1,4 @@
-import Project from "../components/project";
+import Project from "../components/Project";
 
 const Projects = () => {
   return (
