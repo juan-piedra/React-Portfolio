@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import jate from "../assets/jatesquare.png";
 import landit from "../assets/landit.png";
-import ecommerce from "../assets/e-commerce.png";
+import oliverstone from "../assets/oliverstone.jpg"
 import notetaker from "../assets/notetaker.png";
 
 const projectsArr = [
@@ -18,10 +18,10 @@ const projectsArr = [
     link: "https://github.com/juan-piedra/LandIt",
   },
   {
-    image: ecommerce,
-    title: "E-Commerce Back End",
+    image: oliverstone,
+    title: "Oliver Stone",
     stack: "stack",
-    link: "https://github.com/juan-piedra/E-Commerce-Back-End",
+    link: "https://oliver-notes-a42fd57ba8f1.herokuapp.com/",
   },
   {
     image: notetaker,
