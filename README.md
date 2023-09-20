@@ -10,7 +10,7 @@ Welcome to my first React project, and to my new and improved portfolio!
 ![image](https://github.com/juan-piedra/React-Portfolio/assets/127042069/bd7b5f48-8396-4553-865a-5d0737aed1fe)
 
 ## Live URL
-https://juanpiedra-react-portfolio.netlify.app/Resume
+https://juanpiedra-react-portfolio.netlify.app/
 
 ## Author
 This application was developed by Juan Piedra.
